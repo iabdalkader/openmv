@@ -24,7 +24,7 @@ jobs:
           path-to-signatures: 'signatures/version1/cla.json'
           path-to-document: 'https://github.com/iabdalkader/openmv/blob/master/CLA.md'
           branch: 'master'
-          allowlist: bot*
+          allowlist: kwagyeman,bot*
           lock-pullrequest-aftermerge: false
           create-file-commit-message: 'misc: Creating file for storing CLA Signatures'
           signed-commit-message: 'misc: $contributorName has signed the CLA in $owner/$repo#$pullRequestNo'
